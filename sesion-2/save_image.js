@@ -1,8 +1,6 @@
 const https = require("https");
 const fs = require("fs");
-const imageURL = require("./https");
-
-console.log(imageURL);
+const getAPOD = require("./https");
 
 function downloadImage(url, filepath, callback) {
   // fs
